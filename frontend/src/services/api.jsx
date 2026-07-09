@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://legalcms-backend.azurewebsites.net/api",
+baseURL: "https://legalcms-backend-hkbtgrejhdemf5d2.centralindia-01.azurewebsites.net/api",
 });
 
 API.interceptors.request.use((config) => {
